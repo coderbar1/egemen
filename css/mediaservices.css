@@ -1,0 +1,381 @@
+@media (max-width: 910px) {
+
+
+    .slider .slick-btn {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1025px){
+    .we {
+        min-height: 40%;
+    }
+
+    .we-content p {
+        padding-bottom: 20px;
+    }
+
+    .we-content {
+        width: 100%;
+        /* Take full width on smaller screens */
+        margin: 0;
+        /* Remove right margin on smaller screens */
+    }
+
+    .we-img {
+        display: none;
+    }
+
+    .we-img img {
+        width: 100%;
+        /* Make the image take the full width of its container */
+        border-radius: 10px;
+    }
+
+    .item-btn1 {
+        display: inline-block;
+        /* Ensure the button is displayed */
+        margin-top: 20px;
+        /* Add spacing below the button */
+    }
+}
+
+@media (max-width: 913px) {
+
+    .header__btn,
+    .header__btn2 {
+        float: none;
+        padding-right: 320px;
+    }
+
+    .header__contacts {
+        text-align: center;
+    }
+
+    .header__btn:before,
+    .header__btn2:before {
+        display: none;
+    }
+
+    .header__btn:before {
+        display: block;
+    }
+
+    .header__btn-menu {
+        display: block;
+    }
+
+    .menu ul {
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 20px;
+        z-index: 50;
+    }
+
+    .menu li {
+        display: block;
+        text-align: center;
+    }
+
+    .menu a {
+        display: block;
+    }
+
+    .menu li+li {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 1156px) {}
+
+@media (max-width: 1050px) {}
+
+@media (max-width: 900px) {
+    .slider .slick-btn {
+        display: none !important;
+    }
+
+    .services__top,
+    .news__top {
+        display: block;
+    }
+
+    .services__title-box,
+    .form__title-box,
+    .news__title-box {
+        padding-left: 0;
+        text-align: center;
+        margin: 0 auto 30px;
+    }
+
+    .services__btn {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .header__btn {
+        float: none;
+    }
+
+    .header__contacts {
+        text-align: center;
+    }
+
+    .header__btn:before {
+        display: none;
+    }
+
+    .header__btn-menu {
+        display: block;
+    }
+
+    .menu ul {
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 20px;
+        z-index: 50;
+    }
+
+    .menu li {
+        display: block;
+        text-align: center;
+    }
+
+    .menu a {
+        display: block;
+        background-color: #ffffff;
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .menu li+li {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 821px) {
+    .header__btn {
+        float: none;
+    }
+
+    .header__contacts {
+        text-align: center;
+    }
+
+    .header__btn:before {
+        display: none;
+    }
+
+    .header__btn-menu {
+        display: block;
+    }
+
+    .menu ul {
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 20px;
+        z-index: 50;
+    }
+
+    .menu li {
+        display: block;
+        text-align: center;
+    }
+
+    .menu a {
+        display: block;
+        background-color: #ffffff;
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .menu li+li {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .services-item {
+        flex-basis: calc(100% - 20px);
+        /* Make each item take up 100% width on smaller screens */
+        max-width: 100%;
+        /* Ensure the items take up full width */
+    }
+}
+
+@media (max-width: 414px) {
+    .slider__title {
+        font-size: 24px;
+    }
+
+    .slider__text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .header__btn:before {
+        display: block;
+    }
+}
+
+@media (max-width: 375px) {
+    .header__email {
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 414px) {
+    .slider__title {
+        font-size: 24px;
+    }
+
+    .slider__text {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 376px) {
+
+    .header__email {
+        padding-right: 30px;
+    }
+
+    .header__btn,
+    .header__btn2 {
+        padding-right: 0px;
+    }
+}
+
+
+
+@media (min-width: 700px) {
+    .menu ul {
+        display: block !important;
+    }
+
+    footer .footer .container {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 821px) {
+
+    footer .footer .container {
+        flex-direction: column;
+    }
+
+    .recieve {
+        padding: 20px 10px;
+        /* Adjust padding for smaller screens */
+    }
+
+    .recieve-title {
+        font-size: 20px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .recieve-text {
+        font-size: 16px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .recieve-link a {
+        font-size: 12px;
+        /* Adjust font size for smaller screens */
+        padding: 6px 15px;
+        /* Adjust padding for smaller screens */
+    }
+
+    .bell img {
+        width: 50px;
+        /* Adjust image size for smaller screens */
+    }
+
+
+    .contact-box {
+        flex-direction: column;
+        /* Stack the items vertically on smaller screens */
+    }
+
+    .contact-left {
+        flex-basis: 100%;
+        /* Take full width on smaller screens */
+        padding: 0 1.5rem;
+        /* Adjust padding for smaller screens */
+    }
+
+    .contact-right {
+        display: none;
+        /* Hide the image on smaller screens */
+    }
+
+
+    .tours {
+        padding: 1.5rem 1.5rem;
+        /* Adjust padding for smaller screens */
+    }
+
+    .box-tour img {
+        width: 100%;
+        /* Make the image take the full width of its container */
+        height: auto;
+        /* Maintain the aspect ratio */
+    }
+
+
+    .contein {
+        flex-direction: column;
+        /* Stack the items vertically on smaller screens */
+        text-align: center;
+        /* Center text within the container */
+        margin: 3rem 1.5rem;
+        /* Adjust margin for smaller screens */
+    }
+
+    .we {
+        min-height: 40%;
+    }
+
+    .we-content p {
+        padding-bottom: 20px;
+    }
+
+    .we-content {
+        width: 100%;
+        /* Take full width on smaller screens */
+        margin: 0;
+        /* Remove right margin on smaller screens */
+    }
+
+    .we-img {
+        display: none;
+    }
+
+    .we-img img {
+        width: 100%;
+        /* Make the image take the full width of its container */
+        border-radius: 10px;
+    }
+
+    .item-btn1 {
+        display: inline-block;
+        /* Ensure the button is displayed */
+        margin-top: 20px;
+        /* Add spacing below the button */
+    }
+
+    .services {
+        padding: 0 1rem;
+        /* Adjust padding for smaller screens */
+    }
+}
